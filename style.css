@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+color: white;
+}
+main{
+display: flex;
+align-items: center;
+text-align: center;
+flex-direction: column;
+padding: 250px 65px;
+gap: 20px;
+}
+.caixa1{
+  background-color: dimgrey;  
+}
+
