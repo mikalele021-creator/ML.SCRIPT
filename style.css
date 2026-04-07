@@ -1,20 +1,57 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
 }
 body{
-    background-color: black;
-color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(21, 21, 21);
+    height: 100vh;
+
 }
-main{
-display: flex;
-align-items: center;
-text-align: center;
-flex-direction: column;
-padding: 250px 65px;
-gap: 20px;
+.container h1{
+    color: white;
+    margin-bottom: 40px;
 }
-.caixa1{
-  background-color: dimgrey;  
+.container input{
+    padding: 20px 100px 20px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(68, 67, 67);
+    outline: none;
+    font-size: 20px;
+    color: white;
 }
+
+.container button{
+    padding: 20px;
+    font-size: 20px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 40px;
+    cursor: pointer;
+
+}
+ul{
+    list-style: none;
+}
+
+.listNome{
+    background-color: rgb(67, 67, 68);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+
+ 
 
